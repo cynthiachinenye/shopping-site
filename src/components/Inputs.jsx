@@ -1,10 +1,8 @@
 import React from 'react'
 
-const Inputs = () => {
+function Inputs() {
   return (
-    <div>
-      
-    </div>
+    <div>Inputs</div>
   )
 }
 
