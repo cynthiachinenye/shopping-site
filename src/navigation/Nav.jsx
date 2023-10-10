@@ -1,4 +1,4 @@
-import './nav.css'
+import '../navigation/nav.css'
 import {AiFillHeart,AiOutlineShoppingCart,AiOutlineUserAdd} from 'react-icons/ai'
 
 
