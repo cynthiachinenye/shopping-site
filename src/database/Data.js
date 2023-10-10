@@ -4,7 +4,7 @@ import {AiFillStar} from 'react-icons/ai'
 const data = [
 
     {
-        img:'https://images.unsplash.com/photo-1579338559194-a162d19bf842?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c25lYWtlcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60',
+        img:'https://media.istockphoto.com/id/1249496770/photo/running-shoes.jpg?s=612x612&w=0&k=20&c=b4MahNlk4LH6H1ksJApfnlQ5ZPM3KGhI5i_yqhGD9c4=',
         name:'  Air Walker One Sneaker',
         star:< AiFillStar/>,
         reviews:"(123 reviews)",
