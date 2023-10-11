@@ -1,3 +1,4 @@
+import SideBar from './components/SideBar/SideBar';
 import Navigator from './navigation/Nav'
 import Products from './products/Products';
 import Recommend from './recommendations/Recommend';
@@ -5,9 +6,11 @@ import Recommend from './recommendations/Recommend';
 function App() {
   return (
     <div className="App">
+    <SideBar/>
     <Navigator/>
-    <Products/>
     <Recommend/>
+    <Products/>
+    
       
     </div>
   );

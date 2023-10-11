@@ -1,0 +1,21 @@
+.recommend-btns{
+    display:flex;
+    margin-left:20rem;
+
+}
+.recommend-title{
+    font-size:20px;
+    margin-left:20rem;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-family:sans-serif;
+}
+.btn{
+    padding:10px 20px;
+    margin-right:6px;
+    background-color:transparent;
+    border:0.6px solid #ccc;
+    border-radius:5px;
+    color:#323232;
+    cursor:pointer;
+  }
