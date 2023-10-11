@@ -8,7 +8,7 @@ function SideBar() {
     <div>
     <section className='sidebar'>
     <div className='logo-container'>
-    <h1>Logo</h1>
+    <h1>🛒</h1>
     </div>
     <Category/>
     <Price/>
