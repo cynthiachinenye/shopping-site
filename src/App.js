@@ -67,7 +67,7 @@ const result = filteredData(products,selectedCategory,query)
 
   return (
     <div className="App">
-    <SideBar/>
+    <SideBar handleChange={handleChange}/>
     <Navigator/>
     <Recommend/>
     <Products/>
