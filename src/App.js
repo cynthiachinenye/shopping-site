@@ -17,7 +17,10 @@ function App() {
   setQuery(e.target.value)
  }
 
- const filteredItems = products.filter((product) => product.title.toLocalLowerCase().indexOf(query.toLocaleLowerCase()!== -1));
+ const filteredItems = products.filter((product) => 
+ product.title );
+//  .toLocaleLowerCase().indexOf(query.toLocaleLowerCase()!== -1)
+
 
 
  ///Radio filter
@@ -30,13 +33,13 @@ function App() {
   setSelectedCategory(e.target.value)
  }
 
- function filteredData (data,selected, query){
+ function filteredData (products,selected, query){
 
-  let filteredProducts = data
+  let filteredProducts = products
 
   //filtering input items
   if(query){
-    filteredProducts = filteredItems
+    filteredProducts = filteredItems;
   }
 
   //Selected filter
@@ -60,6 +63,7 @@ function App() {
   ))
 
 }
+const result = filteredData(products,selectedCategory,query)
 
   return (
     <div className="App">
