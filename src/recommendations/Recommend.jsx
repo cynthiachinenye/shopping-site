@@ -6,11 +6,11 @@ function Recommend({handleClick}) {
     <div>
     <h2 className='recommend-title'>Recommended</h2>
     <div className='recommend-btns '>
-   <Buttons onClickHandler={handleClick} value="" title="All Products"/>
-   <Buttons onClickHandler={handleClick} value="Nike" title="Nike"/>
-   <Buttons onClickHandler={handleClick} value="Adidas" title="Adidas"/>
-   <Buttons onClickHandler={handleClick} value="Puma" title="Puma"/>
-   <Buttons onClickHandler={handleClick} value="Vans" title="Vans"/>
+   <Buttons className="btn" onClickHandler={handleClick} value="" title="All Products"/>
+   <Buttons className="btn" onClickHandler={handleClick} value="Nike" title="Nike"/>
+   <Buttons className="btn" onClickHandler={handleClick} value="Adidas" title="Adidas"/>
+   <Buttons className="btn" onClickHandler={handleClick} value="Puma" title="Puma"/>
+   <Buttons className="btn" onClickHandler={handleClick} value="Vans" title="Vans"/>
     </div>
     </div>
   )
