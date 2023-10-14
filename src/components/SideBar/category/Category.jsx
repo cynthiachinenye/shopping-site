@@ -8,7 +8,7 @@ function Category({handleChange}) {
 
     <div>
     <label className='sidebar-label-container'>
-    <input onChange={handleChange} type= 'radio' value="" name=""/>
+    <input onChange={handleChange} type= 'radio' value="" name="test"/>
     <span className='checkmark'></span>All
     </label>
     <Inputs
@@ -20,13 +20,19 @@ function Category({handleChange}) {
     <Inputs
      handleChange={handleChange}
      value="falts"
-     title="Sneakers"
+     title="Falts"
      name="test"
     />
     <Inputs
     handleChange={handleChange}
-    value="sneakers"
-    title="Sneakers"
+    value="sandals"
+    title="Sandals"
+    name="test"
+   />
+   <Inputs
+    handleChange={handleChange}
+    value="heels"
+    title="Heels"
     name="test"
    />
 

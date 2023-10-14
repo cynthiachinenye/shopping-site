@@ -15,7 +15,7 @@ function App() {
 
  const handleInputChange = (e) =>{
   setQuery(e.target.value)
- }
+ };
 
  const filteredItems = products.filter((product) => 
  product.title );
@@ -44,7 +44,7 @@ function App() {
 
   //Selected filter
   if(selected){
-    filteredProducts =filteredProducts.filter(({category,color,company,newPrice, name })=>
+    filteredProducts = filteredProducts.filter(({category,color,company,newPrice, name })=>
       category === selected ||color === selected || 
      company === selected ||newPrice === selected ||
       name === selected

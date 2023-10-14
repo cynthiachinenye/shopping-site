@@ -9,8 +9,8 @@
 .sidebar-label-container{
     display:block;
     position:relative;
-    padding-left:35px;
-    margin-bottom: 12px;
+    padding-left:30px;
+    margin-bottom: 10px;
     cursor:pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -59,6 +59,6 @@
     background:white;
 }
 .line{
-    margin-top:3rem;
+    margin-top:2rem;
     border-color: #f7f7f7;
 } 

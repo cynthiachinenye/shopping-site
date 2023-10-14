@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 function Inputs({handleChange, value,title,name,color}) {
   return (
