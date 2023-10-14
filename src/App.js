@@ -3,6 +3,7 @@ import SideBar from './components/SideBar/SideBar';
 import Navigator from './navigation/Nav'
 import Products from './products/Products';
 import Recommend from './recommendations/Recommend';
+import './index.css'
 
 //database
 import products from './database/Data'
