@@ -1,18 +1,11 @@
 import './product.css'
-import Cards from '../components/Cards'
 
-function Products() {
+
+function Products({result}) {
   return (
     <div>
     <section className='card-container'>
-    <Cards/>
-    <Cards/>
-    <Cards/>
-    <Cards/>
-    <Cards/>
-    <Cards/>
-    <Cards/>
-    <Cards/>
+    {result}
     </section>
     </div>
   )
